@@ -10,7 +10,7 @@
     cursor: pointer;
     margin-right: 5px;
   }
-    .join-button{
+    .Join-button{
       background-color: white;
       border-color: rgb(6, 95, 212);
       padding-top: 9px;
@@ -38,7 +38,7 @@
       font-size: 15px;
       margin-right: 8px;
     }
-    .Add-to-cart-button{
+    .Add-to-Cart-button{
       background-color: rgb(255, 216, 20);
       color: black;
       border-radius: 20px;

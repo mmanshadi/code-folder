@@ -1,0 +1,112 @@
+.request-now-button{
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: opacity: 0.15s;
+  margin-right: 8px;
+}
+.request-now-button:hover{
+  opacity: 0.8;
+}
+.Add-to-cart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color: 0.15s;
+}
+.Add-to-cart-button:hover{
+  background-color:rgb(238, 199, 3);
+}
+.Sign-up-button{
+  background-color: rgb(8, 172, 8);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px:
+  padding-right: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 0.15s;
+  margin-left: 8px;
+}
+.Sign-up-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.Get-Started-button{
+  background-color: rgb(121, 77, 183);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 8px;
+  transition: background-color: 0.15s;
+  }
+.Get-Started-button:hover{
+  background-color:rgb(97, 55, 137);
+}
+.Download-button{
+  color: grey;
+  border-color: grey;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+  border-style: solid;
+}
+.Download-button:hover{
+  background-color: grey;
+  color: whitesmoke;
+}
+.apply-on-company-button{
+  background-color: rgb(55, 99, 230);
+  color: white;
+  border: none;
+  font-size:large;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 22px;
+  cursor:pointer;
+  margin-left: 8px;
+  transition: background-color 0.15s;
+}
+.apply-on-company-button:hover{
+  background-color: rgb(16, 53, 175);
+}
+.save-button{
+  background-color: white;
+  color: rgb(25, 25, 162);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 20px;
+  border-color: rgb(25, 25, 162);
+  cursor:pointer;
+  margin-left: 8px;
+  transition: background-color 0.15s;
+}
+.save-button:hover{
+  background-color:azure;
+}
