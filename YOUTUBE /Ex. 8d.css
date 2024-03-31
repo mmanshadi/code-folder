@@ -1,0 +1,50 @@
+.First-Name{
+  font: 16px;
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  color: rgb(240, 235, 235);
+  border-color: rgb(229, 224, 224);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  border-style: solid;
+}
+.Last-Name{
+  font: 16px;
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  color: rgb(240, 235, 235);
+  border-color: rgb(229, 224, 224);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  border-style: solid;
+}
+.Email{
+  font: 16px;
+  width: 210px;
+  height: 20px;
+  display:block;
+  border-radius: 5px;
+  border-style: solid;
+  color: rgb(240, 235, 235);
+  border-color:rgb(229, 224, 224);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+}
+.Sign-up{
+  background-color: rgb(41, 121, 235);
+  font-size: 16px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 220px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
