@@ -1,0 +1,17 @@
+
+  .sentence{
+    font: 16px;
+    width: 200px; 
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .Yes-button{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .No-button{
+    display: inline-block;
+    vertical-align: middle;
+  }
+ 
+    
