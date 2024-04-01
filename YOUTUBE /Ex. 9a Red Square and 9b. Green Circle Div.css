@@ -1,0 +1,14 @@
+.red-button{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.green-circle{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-left: 15px;
+}
