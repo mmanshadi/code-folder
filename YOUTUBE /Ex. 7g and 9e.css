@@ -4,9 +4,9 @@
   border: none;
   border-radius: 18px;
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-bottom: 10px;
-  padding-right: 10px; 
+  padding-right: 5px;
   vertical-align: middle;
   display: inline-block;
 }
@@ -18,7 +18,16 @@
   object-fit: cover;
   margin-right: 5px;
   display:inline-block;
+  padding-left: 5px;
 }
 .text-box{
   border: none;
+  font-size: 14px;
+  height: 25px;
+}
+.search-box-container{
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgrey;
+  width:280px;
 }
