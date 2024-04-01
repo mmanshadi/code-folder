@@ -1,0 +1,30 @@
+.box-container{
+  border-weight: 2px;
+  border-style: solid;
+  font: 16px;
+  width: 250px;
+  height:  100px;
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.colored-box-container{
+  background-color: black;
+  width: 300px;
+  height: 100px;
+  padding-left: 15px;
+  display: inline-block;
+  margin-left:  15px;
+}
+.first-sentence{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.second-sentence{
+  font-size: 12px;
+  color: lightgrey;
+  padding-left: 15px;
+  
+}
