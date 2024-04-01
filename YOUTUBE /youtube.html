@@ -10,10 +10,20 @@
         width: 300px;
       }
       .container{
-        width: 300px;
         display: inline-block;
         vertical-align: top;
         margin-right: 15px;
+      }
+      .channel-icon{
+        display: inline-block;
+        width: 50px;
+      }
+      .channel-pic{
+        width: 50px;
+      }
+      .video-info{
+        display: inline-block;
+        width: 200px;
       }
       .thumbnail-2{
         width: 300px;
@@ -30,10 +40,19 @@
     <input class="search-box" placeholder="search">
    
     <div class="container">
-      <img class="thumbnail-1" src="Thumbnails/thumbnail_1.webp">
-      <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
-      <p>Marques Brownlee</p>
-      <p>3.4M views &middot; 6 months ago</p>
+      <div class="video=thumbnail">
+        <img class="thumbnail-1" src="Thumbnails/thumbnail_1.webp">
+      </div>
+      <div>
+        <div class="channel-icon">
+          <img class="channel-pic" src="Channels/channel1.jpeg">
+        </div>
+        <div class="video-info">
+          <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p>Marques Brownlee</p>
+          <p>3.4M views &middot; 6 months ago</p>   
+        </div> 
+      </div>
     </div>
     <div class="container">
       <img class="thumbnail-2" src="Thumbnails/thumbnail-2.webp">
@@ -41,17 +60,6 @@
       <p>Markiplier</p>
       <p>19M views &middot; 4 years ago</p>
     </div>
-    <div class="container">
-      <img class="thumbnail-3" src="Thumbnails/thumbnail-3.webp">
-      <p>Crazy Tik Toks Taken Moments Before DISASTER</p>
-      <p>SSSniperWolf</p>
-      <p>12M views &middot; 1 years ago</p>
-    </div>
-    <div class="container">
-      <img class="thumbnail-4" src="Thumbnails/thumbnail-4.webp">
-      <p>The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
-      <p>Veritasium</p>
-      <p>18M views  &middot; 4 months ago</p>
-    </div>
+    
   </body>
 </html>
