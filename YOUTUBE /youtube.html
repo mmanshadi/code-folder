@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>My YouTube Project</title>
+   
     <style>
+     
+        
       .search-box{
         display:block;
       }
@@ -17,22 +20,32 @@
       .channel-icon{
         display: inline-block;
         width: 50px;
+        vertical-align: top;
+
       }
       .channel-pic{
         width: 50px;
+        border-radius: 100px;
+        
       }
       .video-info{
         display: inline-block;
         width: 200px;
+        vertical-align: top;
+        margin-top: 0px;
+      }
+      .first-sentence{
+        margin-top: 0px;
+        font-size: 14px;
+        
+
+      }
+      .spacing-between-thumbnail-and-channel-icon{
+        margin-bottom: 12px;
       }
       .thumbnail-2{
         width: 300px;
-      }
-      .thumbnail-3{
-        width: 300px;
-      }
-      .thumbnail-4{
-        width:300px;
+       
       }
     </style>
   </head>
@@ -45,10 +58,11 @@
       </div>
       <div>
         <div class="channel-icon">
+          <div class="spacing-between-thumbnail-and-channel-icon"></div>
           <img class="channel-pic" src="Channels/channel1.jpeg">
         </div>
         <div class="video-info">
-          <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p class="first-sentence">Talking Tech and AI with Google CEO Sundar Pichai!</p>
           <p>Marques Brownlee</p>
           <p>3.4M views &middot; 6 months ago</p>   
         </div> 
